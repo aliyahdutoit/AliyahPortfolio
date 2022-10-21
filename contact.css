@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-contact {
+    background: url("./adorable\ animated\ gif\ cat\ on\ We\ Heart\ It.gif");
+    background-size: 150px 120px;
+    background-repeat: repeat;
+    width: auto;
+    height:max-content; 
+    padding-bottom: 550px;
+}
+
+h1 {
+    font-size: 50px;
+    padding-left: 530px;
+    padding-top: 20px;
+    font-style: italic;
+    color: #876d8f;
+}
+
+.top-nav {
+    background-image: url(./The\ sky\ in\ Rohan\ at\ night\ II_.jpg);
+    animation: infinite;
+    /* overflow: hidden; */
+    height: 1.5cm;
+}
+
+.top-nav a{
+    float: right;
+    color: #b77bb6;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+    font-size: 17px;
+
+
+}
+.top-nav input[type=text] {
+    float: left;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-left: 16px;
+    font-size: 17px;
+}
+.avatar {
+    vertical-align:middle;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+}
+
+/*style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /*full width*/
+    padding: 12px; /*some padding*/
+    border: 1px solid #D65FD4; /*border*/
+    border-radius: 4px; /*rounnded borders*/
+    box-sizing: border-box; /*make sure padding and width stays in place*/
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; /*allow user to vertically resize text area not horizontally*/
+}
+
+/*style submit button with specific background color etc...*/
+input[type=submit] {
+    background-color: #b77bb6;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+/*when moving mouse over submit button, add dark green color*/
+input[type=submit]:hover {
+    background-color: #693068;
+}
+/*add backgrouund coloe and padding around form*/
+.container-form {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #D65FD4;
+    padding: 20px;
+    max-width: 450px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

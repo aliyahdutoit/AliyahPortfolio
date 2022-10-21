@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    display: flex;
+    padding-left: 580px;
+    font-size: 70px;
+    font-style: italic;
+    margin-top: auto;
+    color:#;
+    padding-bottom: 20px;
+}
+
+.main-about {
+    background-image: url(./cats/Hamilton\ One\ Shots\ -\ SOOOOOO\ CUTE\ \(1\).gif);
+    background-size: 100px 100px;
+    background-repeat: repeat;
+    width: auto;
+    height:max-content; 
+    padding-bottom: 600px;
+}
+
+.top-nav {
+    background-image: url(./The\ sky\ in\ Rohan\ at\ night\ II_.jpg);
+    animation: infinite;
+    /* overflow: hidden; */
+    height: 1.5cm;
+}
+
+.top-nav a{
+    float: right;
+    color: #b77bb6;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+    font-size: 17px;
+
+
+}
+.top-nav input[type=text] {
+    float: left;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-left: 16px;
+    font-size: 17px;
+}
+.avatar {
+    vertical-align:middle;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+}
+
+.PI {
+    background-color: #b77bb6;
+    border: 2px;
+    border-style:double;
+    padding: 20px;
+    width: 350px;
+}
+h3 {
+    font-style: oblique;
+}
+.skill {
+    background-color: #b77bb6;
+    border: 2px;
+    border-style:double;
+    padding: 20px;
+    width: 350px;
+}
+.PWE {
+    background-color: #b77bb6;
+    border: 2px;
+    border-style:double;
+    padding: 20px;
+    width: 350px;
+}
+
+.container-flex {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+}
